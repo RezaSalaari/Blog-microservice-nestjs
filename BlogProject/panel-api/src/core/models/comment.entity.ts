@@ -1,0 +1,8 @@
+import { Posts } from "./post.entity";
+
+export class Comment {
+    id?: number;
+    email?: string;
+    text: string;
+    post: Posts
+}

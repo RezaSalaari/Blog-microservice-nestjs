@@ -1,0 +1,26 @@
+<html>
+
+<head>
+  <title>reCAPTCHA demo: Simple page</title>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+
+<body>
+  <form action="/auth/signup" method="POST">
+    <br />
+    <label>UserName</label> <input type="text" name="username" id="username">
+    <br />
+
+    <label>password</label> <input type="text" name="password" id="password">
+    <br />
+
+    <label>age</label> <input type="number" name="age" id="age">
+    <br />
+
+    <div class="g-recaptcha" data-sitekey="6LcDoz8bAAAAAA6elmb3f8AmgkqMKZylWlrhNd5O"></div>
+
+    <input type="submit" value="Submit">
+  </form>
+</body>
+
+</html>
